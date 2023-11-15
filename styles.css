@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right top, #e38fbf, #e293ca, #df97d4, #db9bdf, #d6a0e9, #e3a0e2, #efa1db, #f8a2d3, #ffa6b9, #ffafa3, #f8bb98, #e7c797);
+}
+img {
+    width: 300px; 
+    height: auto;
+    transition: transform 0.50s ease;
+}
+  
+  
+  img:hover {
+    transform: rotate(360deg); 
+  }
+
+
+main{
+    display:grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: center;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    ;
+}
+
+button{
+    background-color: #ece3e5;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    width: 100%;
+}
+.footer1 {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    justify-content: center;
+    color: black;
+}
+
+ 
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .container {
+      width: 90%;
+    }
+  
+    /* Otros estilos específicos para pantallas medianas */
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      width: 100%;
+    }
+  
+    /* Otros estilos específicos para pantallas pequeñas */
+  }
